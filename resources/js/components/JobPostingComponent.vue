@@ -1,7 +1,9 @@
 <template>
     <div>
         <br>
-        <h1>Job Posting List</h1> <br>
+        <h1>Jobs</h1><br>
+
+        <!--TABLE-->
         <table class="table table-hover">
             <thead>
                 <th>Job Name</th>
@@ -55,7 +57,7 @@
             </tfoot>
         </table>
         
-        <!-- Modal -->
+        <!-- MODAL -->
         <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -84,15 +86,9 @@
                 </div>
             </div>
         </div>
+
     </div>
 </template>
-
-
-
-<style>
-    
-</style>
-
 
 
 <script>

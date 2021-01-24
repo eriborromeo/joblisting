@@ -1973,10 +1973,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['posting'],
   data: function data() {
@@ -37654,8 +37650,7 @@ var render = function() {
   return _c("div", [
     _c("br"),
     _vm._v(" "),
-    _c("h1", [_vm._v("Job Posting List")]),
-    _vm._v(" "),
+    _c("h1", [_vm._v("Jobs")]),
     _c("br"),
     _vm._v(" "),
     _c("table", { staticClass: "table table-hover" }, [
