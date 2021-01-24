@@ -10,7 +10,7 @@
 <body>
     <div id="app">
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="https://i.ibb.co/C5yH0nk/job-list1.png" alt="" width="120px">
