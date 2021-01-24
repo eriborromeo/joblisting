@@ -19,4 +19,3 @@ Route::get('/', function () {
 });
 
 Route::resource('/job_posting', JobPostingController::class);
-Route::put('save/{id}','JobPostingController@update');
