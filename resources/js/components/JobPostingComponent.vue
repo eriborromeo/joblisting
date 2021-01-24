@@ -61,32 +61,27 @@
         <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Edit Job Post</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                    </svg> </button>
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label for="">Job Name</label>
-                        <input type="text" class="form-control" placeholder="Input Job Name" v-model="formEdit.job_name">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Edit Job Post</h5>
                     </div>
-                    <div class="form-group">
-                        <label for="">Job Description</label>
-                        <input type="text" class="form-control" placeholder="Input Job Description" v-model="formEdit.job_description">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="">Job Name</label>
+                            <input type="text" class="form-control" placeholder="Input Job Name" v-model="formEdit.job_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Job Description</label>
+                            <input type="text" class="form-control" placeholder="Input Job Description" v-model="formEdit.job_description">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Vacants</label>
+                            <input type="number" class="form-control" placeholder="Input Vacant" v-model="formEdit.vacants">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="">Vacants</label>
-                        <input type="number" class="form-control" placeholder="Input Vacant" v-model="formEdit.vacants">
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal" @click="close()">Close</button>
+                        <button type="button" class="btn btn-primary" @click="save()">Save changes</button>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary" @click="save()">Save changes</button>
-                </div>
                 </div>
             </div>
         </div>
